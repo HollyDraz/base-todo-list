@@ -1,13 +1,15 @@
 import http from 'http';
 import { doSomething } from './my_modules/customModule.js'
+//import todo list so i can see the list 
+
 
 const server = http.createServer((req, res) => {
 
-  // uncomment this, if you want to get parameters from the GET method:
+  // // uncomment this, if you want to get parameters from the GET method:
   // const [path, queryString] = req.url.split('?');
   // const params = new URLSearchParams(queryString);
 
-  // And then, you can get parameters by name, like this:
+  // // And then, you can get parameters by name, like this:
   // const name = params.get('name') || 'Guest';
   // const country = params.get('country') || 'Somewhere';
   // console.log(name);
